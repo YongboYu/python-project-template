@@ -44,7 +44,7 @@ jobs:
       - run: uv run pre-commit run --all-files --show-diff-on-failure
 
   # ---------------------------------------------------------------------------
-  # test — pytest + coverage 
+  # test — pytest + coverage
   # ---------------------------------------------------------------------------
   test:
     runs-on: ubuntu-latest

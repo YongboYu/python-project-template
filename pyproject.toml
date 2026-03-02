@@ -18,7 +18,7 @@ dependencies = []
 # Repository = "https://github.com/YongboYu/project-name"
 
 # =============================================================================
-# Dev dependencies 
+# Dev dependencies
 # =============================================================================
 # Install: uv sync --group dev
 
@@ -33,14 +33,14 @@ dev = [
 ]
 
 # =============================================================================
-# Hatchling build config 
+# Hatchling build config
 # =============================================================================
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/package_name"]
 
 # =============================================================================
-# Ruff — linting + formatting 
+# Ruff — linting + formatting
 # =============================================================================
 
 [tool.ruff]

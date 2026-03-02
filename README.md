@@ -26,7 +26,7 @@ uv sync
 
 ```
 src/
-└── package_name/    
+└── package_name/
     └── __init__.py
 ```
 
