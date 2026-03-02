@@ -1,10 +1,10 @@
 # Project Name
 
-**Brief description of your project.**
+**Brief description of the project.**
 
-[![CI](https://github.com/YongboYu/project-name/actions/workflows/ci.yml/badge.svg)](https://github.com/YongboYu/project-name/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/YongboYu/project-name/actions/workflows/codeql.yml/badge.svg)](https://github.com/YongboYu/project-name/actions/workflows/codeql.yml)
-[![codecov](https://codecov.io/gh/YongboYu/your-project-name/graph/badge.svg)](https://codecov.io/gh/YongboYu/your-project-name)
+[![CI](https://github.com/YongboYu/python-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/YongboYu/python-project-template/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/YongboYu/python-project-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/YongboYu/python-project-template/actions/workflows/codeql.yml)
+[![codecov](https://codecov.io/gh/YongboYu/python-project-template/graph/badge.svg)](https://codecov.io/gh/YongboYu/python-project-template)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
@@ -28,6 +28,8 @@ uv sync
 src/
 └── package_name/
     └── __init__.py
+tests/
+└── test_placeholder.py
 ```
 
 ## License
