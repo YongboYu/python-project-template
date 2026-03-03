@@ -1,3 +1,5 @@
+<div align="center">
+
 # Project Name
 
 **Brief description of the project.**
@@ -7,6 +9,8 @@
 [![codecov](https://codecov.io/gh/YongboYu/python-project-template/graph/badge.svg)](https://codecov.io/gh/YongboYu/python-project-template)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+</div>
 
 ---
 
@@ -25,11 +29,14 @@ uv sync
 ## Project Structure
 
 ```
-src/
-└── package_name/
-    └── __init__.py
-tests/
-└── test_placeholder.py
+project_name/
+├── src/
+│   └── project_name/
+├── tests/
+├── pyproject.toml
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ## License
