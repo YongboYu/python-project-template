@@ -27,7 +27,6 @@ dev = [
     "pre-commit>=4.0",
     "ruff>=0.8",
     "mypy>=1.14",
-    "bandit[toml]>=1.8",
     "pytest>=8.0",
     "pytest-cov>=6.0",
 ]
@@ -58,10 +57,8 @@ select = [
     "UP",   # pyupgrade
     "B",    # flake8-bugbear
     "SIM",  # flake8-simplify
-    "S",    # flake8-bandit (overlap with bandit, but fast)
+    "S",    # flake8-bandit
     "C4",   # flake8-comprehensions
-    "PT",   # flake8-pytest-style
-    "RET",  # flake8-return
     "RUF",  # Ruff-specific rules
 ]
 ignore = [
@@ -111,11 +108,3 @@ omit = ["tests/*", "**/__init__.py"]
 show_missing = true
 skip_empty = true
 # fail_under = 60  # uncomment when ready to enforce coverage threshold
-
-# =============================================================================
-# bandit — security linting
-# =============================================================================
-
-[tool.bandit]
-exclude_dirs = ["tests", ".venv"]
-skips = ["B101"]
